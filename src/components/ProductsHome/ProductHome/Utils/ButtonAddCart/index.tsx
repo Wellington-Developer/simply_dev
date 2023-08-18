@@ -1,5 +1,5 @@
 // Styles
-import './styles.css';
+import './index.css'
 
 // Assets
 import CartIcon from '../../../../../assets/icons/cart.svg';
