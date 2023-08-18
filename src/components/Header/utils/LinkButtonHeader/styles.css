@@ -1,0 +1,87 @@
+.container-button__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.container-button__header .image-button__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 8px 0;
+}
+.container-button__header .info-button__header {
+  display: none;
+  width: 100%;
+  max-width: 100px;
+}
+.container-button__header .info-button__header h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  animation-name: animationIntroInfo;
+  animation-duration: 2s;
+}
+.container-button__header .countercart-button__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  color: white;
+  background: black;
+}
+
+.container-button__header:hover {
+  background-color: #e3e3e3;
+  opacity: 0.8;
+}
+
+@keyframes animationIntroInfo {
+  from {
+    opacity: 0;
+    display: none;
+  }
+  to {
+    opacity: 1;
+    display: block;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container-button__header {
+    width: 60px;
+  }
+  .container-button__header .countercart-button__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: white;
+    background: black;
+  }
+}/*# sourceMappingURL=styles.css.map */

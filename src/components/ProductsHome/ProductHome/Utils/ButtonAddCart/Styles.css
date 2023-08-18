@@ -1,0 +1,21 @@
+.button-add__cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 16px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+.button-add__cart:hover {
+  opacity: 0.8;
+}
+.button-add__cart:hover img {
+  color: white;
+}/*# sourceMappingURL=Styles.css.map */
