@@ -21,6 +21,7 @@ export const ProductsHome = () => {
 
   useEffect(() => {
     getWidtProductContainer()
+    setTypeResolution("s")
   }, [])
 
   return (
